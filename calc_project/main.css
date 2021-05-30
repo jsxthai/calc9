@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#calc {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th input {
+  width: 100%;
+  max-width: 50px;
+}
+
+#calc td,
+#calc th {
+  max-width: 30px;
+  padding: 8px 4px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#calc th {
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 4px 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#calc tr:nth-child(even) {
+  background-color: rgb(243, 243, 243);
+}
